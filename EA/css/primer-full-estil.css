@@ -1,0 +1,46 @@
+/*Exemple de full d'estil, que només té SELECTORS etiqueta*/
+
+/*Sintaxi fulls d'estil:
+ * selector{
+ * 			regla:valor;
+ * 			} */
+  
+body{
+	text-align: center;
+	background:	grey;
+	} 
+	
+/* Estil pel títol h1*/	
+h1{
+	font-family:Ubuntu;
+	font-size: 36px;
+	text-align: left;
+	color: black;
+	text-shadow: 2px 2px 8px darkgrey;
+}
+
+/* Estil pel pàrragraf*/
+p{
+	color:darkgreen;  
+	text-align: justify;
+	}
+
+/* Estil pel títol h2*/
+h2{
+	 color:white;  
+	 background-color: black;
+	 font-family: Georgia, serif;
+	 text-shadow: grey -3px -4px 5px;
+	}
+a{
+	 color:blue;  
+	}
+li{
+	 text-align:left
+	 
+	 }
+		
+
+
+	
+	
