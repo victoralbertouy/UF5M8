@@ -1,0 +1,81 @@
+<!--Tots els comentaris que trobes, et donen informació sobre què fer. 
+	Documenta, mitjançant un altre comentari els teus canvis i perquè els fas.
+	Omple els elements -les etiquetes- que no tinguin contingut.
+	Tabula on calgui. Recorda que una tabulació correcta ajuda a visualitzar el document -->
+	
+<!DOCTYPE html>
+<html>
+    <head>
+		<!-- Què fa aquesta etiqueta link, perquè serveix? modifica-la posant el teu favicon-->
+		<link rel= "shortcut icon" href="media/favicon.png">
+		<!-- Afexeix l'etiqueta per enllaçar el full d'estil aquí -->
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Formulari</title>
+    </head>
+    
+    <body>
+	  		<!-- Substitueix totes les etiquetes div que trobis per etiquetes semàntiques de maquetació HTML5 o afegeix d'altres EXCEPTE ELS DIV DINS DEL FORM!!! -->
+	  <header>
+	  		<h1>Formulari World Wide Web</h1>
+	  </header>
+	  <main>
+		  <!-- Explica els atributs de l'etiqueta form -->
+		  <form id="formulari" action="enviat.html" method="post">
+			<!-- Identifica el significat de l'etiqueta input i perquè serveixen cada atribut type. Trobes 4 almenys-->
+			<!-- La etiqueta <input> especifica un campo de entrada donde el usuario puede guardar datos. -->
+			<div>
+				<p>Introdueix el nom:</p><input type="text" size="30" /> <!-- define un campo de entrada de texto de una sola linea -->
+			</div>
+			<div>
+				<p>Contrasenya:</p><input type="password" size="30" /> <!-- define un campo de contraseña -->
+			</div>
+			
+			<div><p>Que es WWW?</p>
+			  <!-- Afegeix opcions -->
+			  <select>
+				  <option>Web World Wide</option>
+				  <option>Wide World Web</option>
+				  <option>World Wide Web</option>
+			  </select>
+			</div>
+			
+			<div><p>La Web se desarrolló el año:</p>
+				  <select size="3" multiple>
+					  <option>1989 a 1990</option>
+					  <option>1991</option>
+					  <option>1988 a 1990</option>
+				  </select>
+			</div>
+			
+			<div>
+				<p>cuanto conocimiento tienes sobre la WWW?</p> <!-- en el input "type" el radio nos deja solo seleccionar 1 opcion  -->
+				<input type="radio" name="coneixements" value="ninguno"/>Sin Conocimiento 
+				<input type="radio" name="coneixements" value="ninguno"/>Poco Conocimiento
+				<input type="radio" name="coneixements" value="ninguno"/>Algo Conocimiento
+				<input type="radio" name="coneixements" value="ninguno"/>Mucho Conocimiento
+			</div>
+			  
+			<div>
+				<p>Selecciona tu província:</p> <!-- en el input el "type" checkbox nos crea una caja para seleccionar -->
+				<input type="checkbox" name="equip" value="ninguno"/>Barcelona
+				<input type="checkbox" name="equip" value="ninguno"/>Tarragona
+				<input type="checkbox" name="equip" value="ninguno"/>Lleida
+				<input type="checkbox" name="equip" value="ninguno"/>Girona
+			</div>
+			
+			<div>
+				<p>Alguna observació?</p>
+				<textarea rows="10" cols="50"></textarea>
+			</div>
+			
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Esborrar">
+		
+		</form>
+		
+	  </main>
+	  <footer>
+	  		<p>Copyleft: Creat per Uy_Victor - 2020</p>
+	  </footer>
+    </body>
+</html>
